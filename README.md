@@ -1,11 +1,22 @@
+About r-sparseinv-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-sparseinv-feedstock/blob/main/LICENSE.txt)
+
 About r-sparseinv
-=================
+-----------------
 
 Home: https://CRAN.R-project.org/package=sparseinv
 
 Package license: GPL-2.0-or-later
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-sparseinv-feedstock/blob/main/LICENSE.txt)
+Summary: Creates a wrapper for the 'SuiteSparse' routines  that execute the Takahashi equations. These equations compute the elements of the inverse of a sparse matrix at locations where the its Cholesky factor is structurally non-zero. The resulting matrix is known as a  sparse inverse subset. Some helper functions are also implemented.  Support for spam matrices is currently limited and will be implemented  in the future. See Rue and Martino (2007) <doi:10.1016/j.jspi.2006.07.016>  and Zammit-Mangion and Rougier (2018) <doi:10.1016/j.csda.2018.02.001> for the  application of these equations to statistics.
+About r-sparseinv
+-----------------
+
+Home: https://CRAN.R-project.org/package=sparseinv
+
+Package license: GPL-2.0-or-later
 
 Summary: Creates a wrapper for the 'SuiteSparse' routines  that execute the Takahashi equations. These equations compute the elements of the inverse of a sparse matrix at locations where the its Cholesky factor is structurally non-zero. The resulting matrix is known as a  sparse inverse subset. Some helper functions are also implemented.  Support for spam matrices is currently limited and will be implemented  in the future. See Rue and Martino (2007) <doi:10.1016/j.jspi.2006.07.016>  and Zammit-Mangion and Rougier (2018) <doi:10.1016/j.csda.2018.02.001> for the  application of these equations to statistics.
 
@@ -27,38 +38,38 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_r_base4.1</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2475&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-sparseinv-feedstock?branchName=main&jobName=linux&configuration=linux_64_r_base4.1" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>linux_64_r_base4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2475&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-sparseinv-feedstock?branchName=main&jobName=linux&configuration=linux_64_r_base4.2" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-sparseinv-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_r_base4.2" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_r_base4.1</td>
+              <td>linux_64_r_base4.3</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2475&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-sparseinv-feedstock?branchName=main&jobName=osx&configuration=osx_64_r_base4.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-sparseinv-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_r_base4.3" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_64_r_base4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2475&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-sparseinv-feedstock?branchName=main&jobName=osx&configuration=osx_64_r_base4.2" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-sparseinv-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.2" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_r_base4.3</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2475&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-sparseinv-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.3" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>win_64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2475&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-sparseinv-feedstock?branchName=main&jobName=win&configuration=win_64_" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-sparseinv-feedstock?branchName=main&jobName=win&configuration=win%20win_64_" alt="variant">
                 </a>
               </td>
             </tr>
